@@ -1,9 +1,20 @@
+body {
+    height: 100vh;
+    position: relative;
+    background-image: url(../img/hill.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+
 .container {
     width: 800px;
     display: inline-block;
-    margin-left: calc(50% - 400px);
-    margin-top: 100px;
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .left-column {
