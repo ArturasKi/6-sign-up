@@ -25,8 +25,7 @@
     width: 100%;
     border: none;
     border-bottom: 2px solid #777;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 0;
 }
 
 .form > .form-row > .input:focus {
@@ -35,8 +34,7 @@
 
 .form span {
     line-height: 40px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0 10px;
 }
 
 .form a {
